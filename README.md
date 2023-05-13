@@ -1,6 +1,6 @@
 ## 🪙 **ERC20 Token Price Tracker Discord Bot**
 
-This is a simple implementation of a discord bot which tracks the price of ERC20 tokens. The bot changes its name after a set amount of duration to the price of the token. It uses the [Dex Screener API](https://docs.dexscreener.com/api/reference) to get the price of the tokens.
+This is a simple implementation of a discord bot which tracks the price of ERC20 tokens. The bot changes its name after a set amount of duration to the price of the token. It uses the [Dex Screener API](https://docs.dexscreener.com/api/reference) to get the price of the tokens. The bot is written in Python and uses the [Discord.py](https://discordpy.readthedocs.io/en/stable/) library.
 
 &nbsp;
 
