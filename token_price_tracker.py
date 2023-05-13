@@ -8,7 +8,10 @@ client = discord.Client(intents=intents)
 
 async def update_nickname():
     while True:
-        # change this according to whichever token you want to track, read README.md for more info
+        # Change this according to whichever token you want to track, 
+        # Instead of polygon below change it to whichever network your token is on
+        # Go to https://dexscreener.com to get the pair address of the token you want to track
+        # The below example is of DAVOS/USDC pair on Polygon.
         response = requests.get(
             "https://api.dexscreener.io/latest/dex/pairs/polygon/0xfb0bc232CD11dBe804B489860c470B7f9cc80D9F")
         data = response.json()
